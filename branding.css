@@ -1,0 +1,87 @@
+.wrapper{
+    width: 100%;
+    height: 400px;
+    background-image: url(rfr-min.jpg);
+}
+body{
+    margin: 0;
+}
+
+.about{
+    background-color: white;
+    width: 35%;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 232px;
+    left: 205px;
+}
+.img{
+    display: inline-block;
+    position: relative;
+    left: 370px;
+    top: 129px;
+}
+
+button{
+    padding: 15px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    margin-left: 20px;
+    border-radius: 7px;
+    font-size: 17px;
+    font-family: ui-sans-serif;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    position: sticky;
+    top: 0;
+}
+
+.tj{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.jerryrun{
+    animation-name: jerry;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+}
+
+@keyframes jerry{
+    from {left: 0px}
+    to { left: 300px}
+}
+
+.tomandjerry{
+    height: 100px;
+    width: 100px;
+}
+
+.tomandjerry:hover{
+    height: 300px;
+    width: 300px;
+    transition-duration: 4s;
+}
+.where:hover{
+    color: green;
+    font-size: 40px;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: orange;
+}
